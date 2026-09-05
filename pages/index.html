@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clelia Astra Bertelli — DevRel Engineer</title>
+<link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Nunito', sans-serif; background-color: #FAF1E2; color: #3B2A1E; }
+  h1, h2, h3, .font-display { font-family: 'Baloo 2', sans-serif; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body class="antialiased">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-[#FAF1E2]/90 backdrop-blur-sm border-b border-[#E3A857]/30">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#top" class="font-display font-bold text-lg text-[#3B2A1E]">Clelia Astra Bertelli</a>
+      <nav class="hidden md:flex items-center gap-8 text-[15px] font-semibold">
+        <a href="#aboutme" class="hover:text-[#C1622D] transition-colors">About</a>
+        <a href="#soft-skills" class="hover:text-[#C1622D] transition-colors">Skills</a>
+        <a href="#project-design" class="hover:text-[#C1622D] transition-colors">How I Work</a>
+        <a href="/blog" class="hover:text-[#C1622D] transition-colors">Blog</a>
+        <a href="https://github.com/AstraBert" target="_blank" rel="noopener"
+           class="px-4 py-2 rounded-full bg-[#C1622D] text-white hover:bg-[#a94f20] transition-colors">
+          GitHub
+        </a>
+      </nav>
+      <a href="/blog" class="md:hidden font-semibold text-[#C1622D]">Blog</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="flex flex-col justfy-center items-center max-w-5xl mx-auto px-6 pt-16 pb-16 md:pt-24 md:pb-20s">
+      <h1 class="font-display text-5xl md:text-6xl font-extrabold leading-[1.05] text-[#3B2A1E] text-center">
+        Clelia Astra Bertelli
+        <br>
+        <span class="text-[#C1622D]">DevRel Engineer</span>
+      </h1>
+      <p class="mt-6 text-lg leading-relaxed text-[#3B2A1E]/85 text-center">
+        I am Clelia, a passionate developer advocating for AI and search tech at Qdrant
+        <br>
+        I am a pythonist and a rustacean, coding geek and a strong open source advocate!
+      </p>
+    <div class="mt-8 flex flex-wrap items-center gap-4">
+      <a href="https://github.com/AstraBert" target="_blank" rel="noopener"
+         class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#C1622D] text-white font-semibold hover:bg-[#a94f20] transition-colors">
+        Get to know my work
+        <span class="iconify" data-icon="tabler:arrow-right"></span>
+      </a>
+      <a href="#aboutme" class="px-6 py-3 rounded-full font-semibold text-[#3B2A1E] hover:text-[#C1622D] transition-colors">
+        More About Me
+      </a>
+    </div>
+  </section>
+
+  <!-- Hero image -->
+  <section class="max-w-3xl mx-auto px-6 pb-16 md:pb-20">
+    <img src="/static/hero-image.png" alt="Clelia Astra Bertelli"
+         class="w-full rounded-[2.5rem] object-cover">
+  </section>
+
+  <!-- Quote -->
+  <section class="max-w-3xl mx-auto px-6 pb-16 md:pb-24">
+    <p class="font-semibold text-[#748034]">A quote I love:</p>
+    <div class="mt-3 border-l-4 border-[#748034] pl-6 py-1">
+      <p class="font-display text-xl md:text-2xl font-medium text-[#3B2A1E]">
+        So we don't forget when we wake up. Let's write our names on each other. (Your Name, 2016)
+      </p>
+    </div>
+  </section>
+
+  <!-- About Me / Features -->
+  <section id="aboutme" class="bg-[#F1DFC0]">
+    <div class="max-w-5xl mx-auto px-6 py-20">
+      <p class="font-semibold text-[#C1622D]">About Me</p>
+      <h2 class="mt-1 font-display text-3xl md:text-4xl font-bold text-[#3B2A1E]">Profile, interests, skills...</h2>
+      <p class="mt-4 text-lg text-[#3B2A1E]/80 max-w-xl">
+        I am versatile, I am a builder: I love creating things, digging deep into code - here are some of things about me!
+      </p>
+
+      <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
+        <div>
+          <span class="iconify text-[#C1622D]" data-icon="tabler:brand-python" style="font-size: 2rem;"></span>
+          <h3 class="mt-3 font-display font-bold text-lg">Python</h3>
+          <p class="mt-2 text-[#3B2A1E]/75 leading-relaxed">
+            I am fully-proficient in python, the first language I fell in love with and the first one I wrote production code in. I use python mostly for backend services and AI agents.
+          </p>
+        </div>
+        <div>
+          <span class="iconify text-[#C1622D]" data-icon="tabler:brand-rust" style="font-size: 2rem;"></span>
+          <h3 class="mt-3 font-display font-bold text-lg">Rust</h3>
+          <p class="mt-2 text-[#3B2A1E]/75 leading-relaxed">
+            I love Rust and I've been coding almost exclusively in it to get as proficient as possible. My project span CLIs, web servers, AI and DevTooling
+          </p>
+        </div>
+        <div>
+          <span class="iconify text-[#C1622D]" data-icon="tabler:brand-typescript" style="font-size: 2rem;"></span>
+          <h3 class="mt-3 font-display font-bold text-lg">TypeScript</h3>
+          <p class="mt-2 text-[#3B2A1E]/75 leading-relaxed">
+            Although I use it less than other languages, I am a great fan of TypeScript elegance and type system. I enjoy mostly building full-stack apps using TS for backend and frontend, as well as AI-related products.
+          </p>
+        </div>
+        <div>
+          <span class="iconify text-[#C1622D]" data-icon="tabler:terminal-2" style="font-size: 2rem;"></span>
+          <h3 class="mt-3 font-display font-bold text-lg">Bash and Scripting</h3>
+          <p class="mt-2 text-[#3B2A1E]/75 leading-relaxed">
+            I use bash daily for scripting and automation: I love creating ways to speed up repetitive workflows or to combine AI tools in self-supervisioning loops.
+          </p>
+        </div>
+        <div>
+          <span class="iconify text-[#C1622D]" data-icon="tabler:article" style="font-size: 2rem;"></span>
+          <h3 class="mt-3 font-display font-bold text-lg">Technical Writing</h3>
+          <p class="mt-2 text-[#3B2A1E]/75 leading-relaxed">
+            If I am not building things, I really enjoy writing about them: being it the latest advancements in tech and science, or a tutorial about one of my code projects, writing will always be part of my journey!
+          </p>
+        </div>
+        <div>
+          <span class="iconify text-[#C1622D]" data-icon="tabler:settings" style="font-size: 2rem;"></span>
+          <h3 class="mt-3 font-display font-bold text-lg">Systems Programming</h3>
+          <p class="mt-2 text-[#3B2A1E]/75 leading-relaxed">
+            I am trying to get more and more into systems programming, learning lower level concepts and exploring programming languages such as OCaml and Zig. Will report back on how it goes!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Steps -->
+  <section id="project-design" class="max-w-5xl mx-auto px-6 py-20">
+    <div class="grid md:grid-cols-5 gap-12 items-start">
+    <div class="md:col-span-3">
+    <h2 class="font-display text-3xl md:text-4xl font-bold text-[#3B2A1E]">How I approach my projects</h2>
+
+    <div class="mt-12 space-y-8">
+      <div class="flex gap-5">
+        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#C1622D] text-white font-display font-bold flex items-center justify-center">1</div>
+        <div>
+          <h3 class="font-display font-bold text-lg">Step 1: Designing</h3>
+          <p class="mt-1 text-[#3B2A1E]/75 leading-relaxed max-w-xl">
+            The first thing I do is to create a mental schema of what I would like to produce: the features, the tech stack, the intended audience... Everything needs to be drafted in the back of my mind.
+          </p>
+        </div>
+      </div>
+      <div class="flex gap-5">
+        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#C1622D] text-white font-display font-bold flex items-center justify-center">2</div>
+        <div>
+          <h3 class="font-display font-bold text-lg">Step 2: Learn and Research</h3>
+          <p class="mt-1 text-[#3B2A1E]/75 leading-relaxed max-w-xl">
+            Once I designed the idea, I start researching innovative ways to implement it, and I try to learn all the needed concepts. I mostly use good ol' browsers to do that, but sometimes I let LLMs help.
+          </p>
+        </div>
+      </div>
+      <div class="flex gap-5">
+        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#C1622D] text-white font-display font-bold flex items-center justify-center">3</div>
+        <div>
+          <h3 class="font-display font-bold text-lg">Step 3: Build</h3>
+          <p class="mt-1 text-[#3B2A1E]/75 leading-relaxed max-w-xl">
+            Once I have the design and the concepts, building starts. I try to code my applications hierarchically: for example, if I need to create a full stack app connected to an API, I first lay out the utilities, then the API/backend and finally the frontend.
+          </p>
+        </div>
+      </div>
+      <div class="flex gap-5">
+        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#C1622D] text-white font-display font-bold flex items-center justify-center">4</div>
+        <div>
+          <h3 class="font-display font-bold text-lg">Step 4: Iterate and fix bugs</h3>
+          <p class="mt-1 text-[#3B2A1E]/75 leading-relaxed max-w-xl">
+            After building, I test the behavior of my project and I try to find as many bugs as I can, fixing them after every failed iteration, until I have a satisfying result.
+          </p>
+        </div>
+      </div>
+      <div class="flex gap-5">
+        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-[#748034] text-white flex items-center justify-center">
+          <span class="iconify" data-icon="tabler:check" style="font-size: 1.1rem;"></span>
+        </div>
+        <div>
+          <h3 class="font-display font-bold text-lg">Ready!</h3>
+          <p class="mt-1 text-[#3B2A1E]/75 leading-relaxed max-w-xl">
+            Once I am satisfied, I prepare a nice README for my project, give it a license and contribution guidelines, and then I just push it out live - open source as always!
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="md:col-span-2 md:self-end">
+      <img src="/static/project-design.png" alt="How I design and build projects"
+           class="w-full rounded-3xl object-cover">
+    </div>
+    </div>
+  </section>
+
+  <!-- Soft skills -->
+  <section id="soft-skills" class="bg-[#F1DFC0]">
+    <div class="max-w-5xl mx-auto px-6 py-20">
+      <p class="font-semibold text-[#748034]">Beyond tech</p>
+      <h2 class="mt-1 font-display text-3xl md:text-4xl font-bold text-[#3B2A1E]">My soft skills</h2>
+      <p class="mt-4 text-lg text-[#3B2A1E]/80 max-w-xl">
+        Because when you're a dev, you don't just build tech, you need to live it
+      </p>
+
+      <div class="mt-12 grid sm:grid-cols-3 gap-10">
+        <div>
+          <span class="iconify" data-icon="flat-color-icons:advertising" style="font-size: 2.25rem;"></span>
+          <h3 class="mt-3 font-display font-bold text-lg">Public speaking and presentations</h3>
+          <p class="mt-2 text-[#3B2A1E]/75 leading-relaxed">
+            One of my core skills is being able to pitch projects in front of people by preparing visually appealing presentations to efficiently deliver my ideas.
+          </p>
+        </div>
+        <div>
+          <span class="iconify" data-icon="flat-color-icons:document" style="font-size: 2.25rem;"></span>
+          <h3 class="mt-3 font-display font-bold text-lg">Critical thinking</h3>
+          <p class="mt-2 text-[#3B2A1E]/75 leading-relaxed">
+            Critical thinking is a skill that I cultivated in my life by taking part into competitive debates: I like to reflect, understand, question, until I get real answers.
+          </p>
+        </div>
+        <div>
+          <span class="iconify" data-icon="flat-color-icons:voice-presentation" style="font-size: 2.25rem;"></span>
+          <h3 class="mt-3 font-display font-bold text-lg">Open communication</h3>
+          <p class="mt-2 text-[#3B2A1E]/75 leading-relaxed">
+            I like things being transparent, and I feel like every good working relationship is built upon open and honest communication, a best practice that I always try to follow.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="max-w-5xl mx-auto px-6 py-20">
+    <div class="grid sm:grid-cols-3 gap-10 text-center sm:text-left">
+      <div>
+        <p class="font-display text-4xl font-extrabold text-[#C1622D]">6K+</p>
+        <p class="mt-1 text-[#3B2A1E]/75">Contributions on GitHub</p>
+      </div>
+      <div>
+        <p class="font-display text-4xl font-extrabold text-[#C1622D]">2.4K+</p>
+        <p class="mt-1 text-[#3B2A1E]/75">Stars on GitHub</p>
+      </div>
+      <div>
+        <p class="font-display text-4xl font-extrabold text-[#C1622D]">500+</p>
+        <p class="mt-1 text-[#3B2A1E]/75">Followers on GitHub</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="bg-[#748034]">
+    <div class="max-w-4xl mx-auto px-6 py-20 text-center">
+      <h2 class="font-display text-3xl md:text-4xl font-bold text-white">Let's grow our networks!</h2>
+      <p class="mt-4 text-white/90 max-w-lg mx-auto">
+        If you wish to chat and know me professionally, make sure to connect with me on LinkedIn!
+      </p>
+      <a href="https://www.linkedin.com/in/clelia-astra-bertelli-583904297/" target="_blank" rel="noopener"
+         class="mt-8 inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-[#3B2A1E] font-semibold hover:bg-[#FAF1E2] transition-colors">
+        <span class="iconify" data-icon="tabler:brand-linkedin"></span>
+        Visit my profile
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="max-w-5xl mx-auto px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-[#3B2A1E]/60">
+    <p>&copy; 2026 Clelia Astra Bertelli</p>
+    <div class="flex items-center gap-6">
+      <a href="/blog" class="hover:text-[#C1622D] transition-colors">Blog</a>
+      <a href="https://github.com/AstraBert" target="_blank" rel="noopener" class="hover:text-[#C1622D] transition-colors">GitHub</a>
+      <a href="https://www.linkedin.com/in/clelia-astra-bertelli-583904297/" target="_blank" rel="noopener" class="hover:text-[#C1622D] transition-colors">LinkedIn</a>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+(executable
+ (name app)
+ (libraries dream hilite))
+
+(data_only_dirs blog)
