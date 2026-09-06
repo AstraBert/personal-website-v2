@@ -1,0 +1,185 @@
+:root {
+  --cream: #FAF1E2;
+  --cardboard: #F1DFC0;
+  --bark: #3B2A1E;
+  --terracotta: #C1622D;
+  --terracotta-dark: #A94F20;
+  --marigold: #E3A857;
+  --moss: #748034;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--cream);
+  color: var(--bark);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 700;
+  color: var(--bark);
+  line-height: 1.2;
+}
+
+/* Header */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: rgba(250, 241, 226, 0.9);
+  backdrop-filter: blur(4px);
+  border-bottom: 1px solid rgba(227, 168, 87, 0.3);
+}
+
+header nav {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+header nav a {
+  font-weight: 600;
+  color: var(--bark);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+header nav a:hover {
+  color: var(--terracotta);
+}
+
+header nav a:last-child {
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background-color: var(--terracotta);
+  color: white;
+}
+
+header nav a:last-child:hover {
+  background-color: var(--terracotta-dark);
+  color: white;
+}
+
+/* Title */
+
+.title {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 2rem;
+}
+
+.title h1 {
+  font-size: 2.75rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.title h3 {
+  margin: 0.75rem 0 0;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+  font-size: 1.15rem;
+  color: rgba(59, 42, 30, 0.7);
+}
+
+/* List */
+
+.list {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-list-entry {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid rgba(227, 168, 87, 0.35);
+  border-radius: 0.75rem;
+  transition: background-color 0.2s ease;
+}
+
+.blog-list-entry:hover {
+  background-color: var(--cardboard);
+}
+
+.blog-list-entry .entry {
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  flex-basis: 100%;
+}
+
+.blog-list-entry .entry a {
+  color: var(--bark);
+  text-decoration: none;
+}
+
+.blog-list-entry .entry a:hover {
+  color: var(--terracotta);
+}
+
+.blog-list-entry .category {
+  order: -1;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--moss);
+  background-color: rgba(116, 128, 52, 0.12);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
+
+.blog-list-entry .excerpt {
+  flex-basis: 100%;
+  color: rgba(59, 42, 30, 0.75);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+.blog-footer {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: rgba(59, 42, 30, 0.6);
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  color: rgba(59, 42, 30, 0.6);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: var(--terracotta);
+}

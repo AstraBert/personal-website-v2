@@ -1,5 +1,5 @@
 (executable
  (name app)
- (libraries dream hilite))
+ (libraries dream hilite re base cmarkit hilite.markdown stdio))
 
 (data_only_dirs blog)

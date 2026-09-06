@@ -15,6 +15,10 @@ depends: [
   "odoc" {with-doc}
   "hilite"
   "dream"
+  "re"
+  "base"
+  "cmarkit"
+  "stdio"
 ]
 build: [
   ["dune" "subst"] {dev}
