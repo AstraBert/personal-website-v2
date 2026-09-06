@@ -28,7 +28,7 @@
     <footer class="blog-footer">
         <p>&copy; 2026 Clelia Astra Bertelli</p>
         <div class="footer-links">
-        <a href="/blog">Blog</a>
+        <a href="./">Blog</a>
         <a href="https://github.com/AstraBert" target="_blank" rel="noopener">GitHub</a>
         <a href="https://www.linkedin.com/in/clelia-astra-bertelli-583904297/" target="_blank" rel="noopener">LinkedIn</a>
         </div>
