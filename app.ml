@@ -79,7 +79,7 @@ let render_template entry = (
 
 let render_blog_list_entry entry = (
   let with_title = String.substr_replace_all ~pattern:"{{ title }}" ~with_:entry.details.title blog_list_entry_template
-  in let with_url = String.substr_replace_all ~pattern:"{{ url }}" ~with_:("/" ^ (String.substr_replace_first ~pattern:"generated/" ~with_:"" entry.name)) with_title
+  in let with_url = String.substr_replace_all ~pattern:"{{ url }}" ~with_:("./" ^ (String.substr_replace_first ~pattern:"generated/blog/" ~with_:"" entry.name)) with_title
   in let with_category = String.substr_replace_all ~pattern:"{{ category }}" ~with_:entry.details.category with_url
   in let with_excerpt = String.substr_replace_all ~pattern:"{{ excerpt }}" ~with_:entry.details.excerpt with_category in
   with_excerpt

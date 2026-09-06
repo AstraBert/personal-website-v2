@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Clelia's Blog</title>
-<link rel="icon" type="image/x-icon" href="/static/favicon.ico">
-<link href="/static/blog-list-styles.css" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="../static/favicon.ico">
+<link href="../static/blog-list-styles.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 <body>
     <header>
         <nav>
-            <a href="/">Home</a>
+            <a href="../">Home</a>
             <a href="https://github.com/AstraBert">GitHub</a>
         </nav>
     </header>
